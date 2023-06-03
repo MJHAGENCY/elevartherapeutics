@@ -125,6 +125,12 @@
   }
 }
 
+#spotlight-row {
+  display: block !important;
+  background: #fff;
+  padding: 40px 0 60px;
+}
+
 @media all and (max-width: 1024px) {
   #map-popup_section {
     background-image: url(/wp-content/uploads/2023/04/map_mobi.png);
@@ -143,9 +149,9 @@
     font-weight: 600;
   }
   p {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: $drk_gray;
   }
   #spotlight-body {
     margin: 20px 0 0 -15px;
@@ -228,9 +234,9 @@
       font-weight: 600;
     }
     p {
-      font-size: 22px;
-      font-weight: 400;
-      line-height: 2rem;
+      font-size: 18px;
+      font-weight: 500;
+      color: $drk_gray;
     }
   }
 }
@@ -306,7 +312,7 @@
               width: 100%;
             }
             p {
-              font-size: 20px;
+              font-size: 18px;
             }
           }
         }
@@ -386,6 +392,7 @@
   p {
     font-size: 18px;
     color: $drk_gray;
+    font-weight: 500;
   }
 }
 

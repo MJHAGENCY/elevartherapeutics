@@ -12,6 +12,7 @@
   p {
     font-size: 18px;
     color: $drk_gray;
+    font-weight: 500;
   }
 
   form {
@@ -227,8 +228,9 @@
               border-radius: 2px;
             }
             span {
-              font-size: 14px;
-              line-height: 1.2rem;
+              font-size: 18px;
+              color: $drk_gray;
+              font-weight: 500;
             }
           }
         }
