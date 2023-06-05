@@ -20,21 +20,27 @@
 .page-id-17194 div.edgtf-title {
   z-index: 100 !important;
 }
-.edgtf-title.edgtf-title-size-large .edgtf-title-holder{
+.page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+  width: 1397px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
+}
+.edgtf-title.edgtf-title-size-large .edgtf-title-holder {
   h1 {
     color: #ffffff;
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
     width: 330px;
     padding-bottom: 20px;
     margin: 0;
-    line-height: 57px;
-    font-size: 57px !important;
+    line-height: 56px;
+    font-size: 56px !important;
     filter: drop-shadow(0px 0px 5px #000);
   }
   span.edgtf-subtitle {
     margin-top: 20px;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 39px;
     font-weight: 600;
     filter: drop-shadow(0px 0px 4px #000);
   }
@@ -58,7 +64,9 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 306px;
+    width: 305px;
+    font-size: 20px;
+    line-height: 32px;
     height: 54px;
     padding: 0 12px;
     border-radius: 0 0 6px 6px;
@@ -71,8 +79,63 @@
     }
   }
 }
+#mission-statement,
+#core-values,
+#our-purpose,
+#what-we-offer,
+#careers-paylocity-row {
+  h2.careers-blue-headings  {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2B71B7;
+    text-transform: uppercase;
+    letter-spacing: -0.25px;
+  }
+  p.careers-paragraph {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 400;
+    margin-top: 20px
+  }
+  p.careers-paragraph.bold {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #333333;
+    margin-top: 20px
+  }
+}
+#careers-paylocity-row {
+  h4.eoe-headline {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #54C1EA;
+    letter-spacing: -0.25px;
+    margin: 0;
+  }
+  p.eoe-copy {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8D8D8D;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    margin-top: 30px;
+  }
+  a.recruiting-email {
+    color: #2B71B7;
+  }
+}
 
-.container-iframe {
+.space-70 {
+
+}
+div.container-iframe {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -80,8 +143,7 @@
   background-color: #fff;
   margin: 0 auto;
 }
-
-.paylocity-iframe {
+iframe.paylocity-iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -572,7 +634,7 @@
   }
   #open-positions-cta {
     position: relative;
-    width: 306px;
+    width: 305px;
     margin: 0 auto;
     top: 81px;
     right: inherit;
