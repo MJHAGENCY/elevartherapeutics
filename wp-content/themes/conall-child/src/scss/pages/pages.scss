@@ -3,8 +3,94 @@
 
 /*  HOME PAGE   */
 
-/*  HOME PAGE   */
+/*  CAREERS 2023 BillieMead   */
 
+#hero-button {
+  height: 143px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+body > div.edgtf-wrapper > div > div.edgtf-content > div > div.edgtf-title.edgtf-standard-type.edgtf-preload-background.edgtf-has-background.edgtf-has-responsive-background.edgtf-content-center-alignment.edgtf-animation-no.edgtf-title-image-responsive.edgtf-title-size-large {
+  z-index: 100 !important;
+}
+.edgtf-title.edgtf-title-size-large .edgtf-title-holder{
+  h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+    width: 330px;
+    padding-bottom: 20px;
+    margin: 0;
+    line-height: 57px;
+    font-size: 57px !important;
+    filter: drop-shadow(0px 0px 5px #000);
+  }
+  span.edgtf-subtitle {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    filter: drop-shadow(0px 0px 4px #000);
+  }
+}
+#open-positions-cta {
+  width: 282px;
+  position: absolute;
+  top: 89px;
+  right: 10vw;
+  z-index: 102;
+  p {
+    margin: 0;
+  }
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 306px;
+    height: 54px;
+    padding: 0 12px;
+    border-radius: 0 0 6px 6px;
+    background: $lt_blue;
+    color: #fff !important;
+    &:hover {
+      background: #fff;
+      color: $lt_blue !important;
+      border: 1px solid $lt_blue;
+    }
+  }
+}
+
+.container-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 62.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.paylocity-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
 
 /*    ASCO 2023 PAGE    */
 .page-id-16965 {
@@ -483,7 +569,14 @@
     right: inherit;
 
   }
+  #open-positions-cta {
+    position: relative;
+    width: 306px;
+    margin: 0 auto;
+    top: 81px;
+    right: inherit;
 
+  }
 }
 
 
