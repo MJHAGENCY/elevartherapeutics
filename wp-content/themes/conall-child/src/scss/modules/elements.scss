@@ -27,8 +27,13 @@
     }
   }
 }
-
-
+/* Header Search icon & Text */ 
+i.edgtf-icon-font-awesome.fa.fa-search {
+      color: #202020 !important;
+}
+.edgtf-search-icon-text {
+  color: #202020 !important;
+}
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) {
 
