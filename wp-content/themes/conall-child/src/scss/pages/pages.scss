@@ -111,7 +111,7 @@
   justify-content: end;
 }
 .icon-topbox.vc_column_container:nth-child(even) {
-  justify-content: start;
+  justify-content: flex-start;
 }
 .icon-topbox {
 
@@ -128,6 +128,7 @@
   }
   .edgtf-iwt.edgtf-iwt-icon-left {
     display: flex;
+    height: 100%;
   }
   .edgtf-iwt-icon-holder {
     display: inline-flex;
@@ -165,7 +166,6 @@
 }
 #icon-row3 {
   max-width: 1100px;
-  margin: 0 auto;
 }
 #bottombox1,
 #bottombox2,
@@ -232,7 +232,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin-top: 25px;
+  margin-left: -15px;
+  margin-right: -15px;
   min-height: 75px;
   p {
     margin: 0;
@@ -930,7 +933,15 @@ iframe.paylocity-iframe {
       width: 90%;
     }
   }
+  .icon-bottombox {
+    div.vc_column-inner {
+      min-height: 215px;
+    }
+  }
   .edgtf-iwt.edgtf-iwt-icon-left {
+    text-align: center;
+  }
+  .edgtf-iwt.edgtf-iwt-icon-top {
     text-align: center;
   }
   .icon-topbox.vc_column_container:nth-child(odd) {
@@ -939,7 +950,9 @@ iframe.paylocity-iframe {
   .icon-topbox.vc_column_container:nth-child(even) {
     justify-content: center;
   }
-
+  .icon-bottombox.vc_column_container {
+    justify-content: center;
+  }
   #mission-statement,
   #core-values,
   #our-purpose,
@@ -961,9 +974,6 @@ iframe.paylocity-iframe {
       margin-top: 15px;
     }
   }
-  #grey-background-row {
-    margin: 1%;
-  }
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -975,6 +985,13 @@ iframe.paylocity-iframe {
 @media all and (max-width: 768px) {
   .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
     width: 600px;
+  }
+  #grey-background-row a {
+    font-size: 16px;
+  }
+  #grey-background-row {
+    border-radius: 10px!important;
+    min-height: 55px;
   }
 }
 
@@ -1029,18 +1046,24 @@ iframe.paylocity-iframe {
       flex-direction: column;
     }
   }
+  #icon-row3 {
+    max-width: unset;
+  }
   .icon-topbox {
     .edgtf-iwt.edgtf-iwt-icon-left {
       flex-direction: column;
     }
     .edgtf-iwt-icon-holder {
       width: 100%;
-      display: flex;
+      display: inline-flex;
+      aspect-ratio: 2/1;
+      align-items: center;
     }
     .edgtf-iwt-content-holder {
-      width: 100%;
       display: flex;
       align-items: center;
+      width: 88%;
+      margin: 0 auto;
     }
     div.vc_column-inner {
       max-width: 600px;
@@ -1055,10 +1078,6 @@ iframe.paylocity-iframe {
       aspect-ratio: 1/1;
       background-image: url(/wp-content/themes/conall-child/dist/images/Elevar_Gradient_MOB.png) !important;
     }
-    .edgtf-iwt-content-holder {
-      width: 88%;
-      margin: 0 auto;
-    }
     h5 {
       font-size: 28px;
       line-height: 45px;
@@ -1072,21 +1091,52 @@ iframe.paylocity-iframe {
       text-align: center;
       width: 90%;
     }
-    .edgtf-iwt-icon-holder {
-      display: inline-flex;
-      aspect-ratio: 2/1;
-      align-items: start;
-    }
-    .icon-topbox.vc_column_container {
-      display: flex;
-      padding: 3% 0;
-    }
-    .icon-bottombox {
+  }
+  .icon-topbox.vc_column_container {
+    display: flex;
+    padding: 3% 0;
+  }
+  .icon-bottombox {
+      .edgtf-iwt.edgtf-iwt-icon-top {
+        flex-direction: column;
+      }
+      .edgtf-iwt-icon-holder {
+        width: 100%;
+        display: inline-flex;
+        aspect-ratio: 2/1;
+        align-items: center;
+        padding: 0;
+        height: 60%;
+      }
+      .edgtf-iwt-content-holder {
+        display: flex;
+        align-items: center;
+        width: 88%;
+        margin: 0 auto;
+        height: 10%;
+      }
+      div.vc_column-inner {
+        max-width: 600px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-size: 100% 100%!important;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        aspect-ratio: 1/1;
+        background-image: url(/wp-content/themes/conall-child/dist/images/Elevar_Gradient_MOB.png) !important;
+      }
       h5 {
         font-size: 28px;
         line-height: 45px;
       }
-    }
+  }
+  .icon-bottombox.vc_column_container {
+    display: flex;
+    padding: 3% 0;
   }
   #asco_23_hero_row {
     height: 80vh;
@@ -1160,12 +1210,29 @@ iframe.paylocity-iframe {
     }
   }
 }
+
 @media all and (max-width: 600px) {
   .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
     width: 420px;
   }
   .icon-topbox div.vc_column-inner {
     padding: 12%;
+  }
+  .icon-bottombox {
+    div.vc_column-inner {
+    padding: 14%;
+    }
+    .edgtf-iwt-icon-holder {
+      height: 50%;
+    }
+    .edgtf-iwt-content-holder {
+      height: 50%;
+    }
+  }
+  .career-icon6 {
+    h5 {
+      margin-top: 30px;
+    }
   }
   #careers-paylocity-row {
     h4.eoe-headline,
@@ -1175,6 +1242,12 @@ iframe.paylocity-iframe {
     .space-70 {
       display: none;
     }
+  }
+  #grey-background-row {
+    min-height: 80px;
+  }
+  #grey-background-row a {
+    font-size: 18px;
   }
 }
 
@@ -1215,6 +1288,10 @@ iframe.paylocity-iframe {
     display: flex;
     padding: 4%;
   }
+  .icon-bottombox.vc_column_container {
+    display: flex;
+    padding: 4%;
+  }
   .icon-topbox {
     .edgtf-iwt-content-holder {
       width: 88%;
@@ -1246,6 +1323,13 @@ iframe.paylocity-iframe {
     }
   }
   .icon-bottombox {
+    .edgtf-iwt-content-holder {
+      width: 88%;
+      margin: 0 auto;
+    }
+    div.vc_column-inner {
+      padding: 0;
+    }
     h5 {
       font-size: 28px;
       line-height: 45px;
