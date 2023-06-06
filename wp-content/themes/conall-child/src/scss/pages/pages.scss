@@ -1045,6 +1045,7 @@ iframe.paylocity-iframe {
   .icon-topbox {
     .edgtf-iwt.edgtf-iwt-icon-left {
       flex-direction: column;
+      justify-content: center;
     }
     .edgtf-iwt-icon-holder {
       width: 100%;
@@ -1092,6 +1093,7 @@ iframe.paylocity-iframe {
   .icon-bottombox {
       .edgtf-iwt.edgtf-iwt-icon-top {
         flex-direction: column;
+        justify-content: center;
       }
       .edgtf-iwt-icon-holder {
         width: 100%;
@@ -1219,7 +1221,7 @@ iframe.paylocity-iframe {
       height: 50%;
     }
     .edgtf-iwt-content-holder {
-      height: 50%;
+      height: 30%;
     }
   }
   .career-icon6 {
