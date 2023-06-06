@@ -552,6 +552,9 @@ iframe.paylocity-iframe {
 }
 
 #elevar-ppl-row {
+  /*hide row*/
+  display: none;
+  
   height: 565px;
   background-image: url(/wp-content/uploads/2023/05/blue-bg-w-wings.png);
   background-repeat: no-repeat;
@@ -678,7 +681,7 @@ iframe.paylocity-iframe {
 }
 
 #book-meeting-cta {
-  width: 282px;
+  /*width: 282px;*/
   position: absolute;
   top: 0;
   right: 5vw;
@@ -695,7 +698,7 @@ iframe.paylocity-iframe {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 282px;
+    /*width: 282px;*/
     height: 54px;
     padding: 0 12px;
     border-radius: 0 0 6px 6px;
@@ -1139,15 +1142,21 @@ iframe.paylocity-iframe {
     height: 80vh;
     background-repeat: no-repeat !important;
     background-image: url(/wp-content/uploads/2023/04/hero_mobi.png);
-    #visit-us-subtitle h3 {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      .map-ping {
-        margin: 20px 0 0;
+    /*hide date and address*/
+    #visit-us-subtitle,
+    #address-line {
+      display: none;
+      h3 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        .map-ping {
+          margin: 20px 0 0;
+        }
       }
     }
+
 /*    #address-line {
       width: 60vw;
     }*/
