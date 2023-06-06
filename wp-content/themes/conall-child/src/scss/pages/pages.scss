@@ -15,11 +15,12 @@
   h1 {
     color: #ffffff;
     border-bottom: 3px solid #fff;
-    width: 330px;
-    padding-bottom: 20px;
+    width: 260px;
+    padding-bottom: 15px;
+    letter-spacing: 4.5px;
     margin: 0 auto;
-    line-height: 56px;
-    font-size: 56px !important;
+    line-height: 1.2em;
+    font-size: 45px !important;
     text-transform: uppercase;
     filter: drop-shadow(0px 0px 5px #000);
     top: 0;
@@ -28,7 +29,7 @@
     h3 {
         margin-top: 20px;
         color: #ffffff;
-        font-size: 39px;
+        font-size: 30px;
         font-weight: 600;
         filter: drop-shadow(0px 0px 4px #000);
     }
@@ -77,24 +78,23 @@
   h2.careers-blue-headings  {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 28px;
+    line-height: 1.5em;
     color: #2B71B7;
     text-transform: uppercase;
-    letter-spacing: -0.25px;
   }
   p.careers-paragraph {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 2rem;
     color: #333333;
     font-weight: 400;
     margin-top: 20px;
   }
   p.careers-paragraph.bold {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: bold;
-    line-height: 45px;
+    line-height: 2rem;
     color: #333333;
     margin-top: 20px;
   }
@@ -152,15 +152,15 @@
   h5 {
     color: #fff;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 1.5em;
     letter-spacing: -0.15px;
   }
   p {
     color: #fff;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 2rem;
     width: 82%;
   }
 }
@@ -196,6 +196,8 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .edgtf-iwt-icon-holder {
     display: inline-flex;
@@ -204,11 +206,11 @@
     align-items: center;
     float: unset !important;
     margin: 0 auto !important;
-    height: 70%;
+    height: 60%;
   }
   .edgtf-iwt-content-holder {
     display: inline-flex;
-    width: 100%;
+    width: 85%;
     padding: 0 !important;
     justify-content: center;
     height: 40%;
@@ -216,8 +218,8 @@
   h5 {
     color: #fff;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 1.5em;
     letter-spacing: -0.15px;
     text-align: center;
   }
@@ -237,7 +239,7 @@
     margin: 0;
   }
   a {
-    font-size: 24px;
+    font-size: 22px;
     color: #2B71B7;
     text-decoration: underline;
   }
@@ -245,20 +247,20 @@
 #careers-paylocity-row {
   h4.eoe-headline {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 26px;
+    line-height: 1.5em;
     color: #54C1EA;
     letter-spacing: -0.25px;
     margin: 0;
   }
   p.eoe-copy {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 2rem;
     color: #8D8D8D;
     font-style: italic;
     letter-spacing: -0.5px;
-    margin-top: 30px;
+    margin-top: 15px;
   }
   a.recruiting-email {
     color: #2B71B7;
@@ -726,7 +728,7 @@ iframe.paylocity-iframe {
       url(/wp-content/uploads/2023/04/Hero_DT.png);
   }
   #careers_hero_row {
-    height: 465px;
+    height: 457px;
     background-position: bottom 0 left 0 !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -846,7 +848,7 @@ iframe.paylocity-iframe {
     }
   }
   #grey-background-row a {
-    font-size: 21px;
+    font-size: 20px;
 }
   #future-events-row {
 
@@ -1028,7 +1030,7 @@ iframe.paylocity-iframe {
     }
   }
   #careers_hero_row {
-    height: 475px;
+    height: 457px;
     background-repeat: no-repeat !important;
     background-image: url(/wp-content/themes/conall-child/dist/images/elevar-careers-header-MOB-414x475-1.png);
     display: flex;
@@ -1232,7 +1234,7 @@ iframe.paylocity-iframe {
   #careers-paylocity-row {
     h4.eoe-headline,
     p.eoe-copy {
-      font-size: 21px;
+      font-size: 18px;
     }
     .space-70 {
       display: none;
