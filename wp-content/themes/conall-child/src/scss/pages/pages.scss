@@ -712,6 +712,12 @@ iframe.paylocity-iframe {
   }
 }
 
+/*hide date and address*/
+#visit-us-subtitle,
+#address-line {
+  display: none;
+}
+
 /*   END ASCO 2023 PAGE    */
 
 /*** Responsive Styles Standard Desktop Only - bmead I merged media queries where I could ***/
@@ -1138,10 +1144,8 @@ iframe.paylocity-iframe {
     height: 80vh;
     background-repeat: no-repeat !important;
     background-image: url(/wp-content/uploads/2023/04/hero_mobi.png);
-    /*hide date and address*/
     #visit-us-subtitle,
     #address-line {
-      display: none;
       h3 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
