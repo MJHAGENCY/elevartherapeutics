@@ -144,6 +144,10 @@
     flex-direction: column;
     justify-content: center;
   }
+  .wpb_wrapper {
+    height: 100%;
+    width: 100%;
+  }
   h5 {
     color: #fff;
     font-weight: 700;
@@ -157,6 +161,86 @@
     font-size: 24px;
     line-height: 36px;
     width: 82%;
+  }
+}
+#icon-row3 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#bottombox1,
+#bottombox2,
+#bottombox3 {
+  justify-content: center;
+}
+#bottombox3 {
+  .edgtf-iwt-content-holder {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.icon-bottombox {
+  display: flex;
+  div.vc_column-inner {
+    max-width: 350px;
+    min-height: 381px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  .wpb_wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  .edgtf-iwt.edgtf-iwt-icon-top {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .edgtf-iwt-icon-holder {
+    display: inline-flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    float: unset !important;
+    margin: 0 auto !important;
+    height: 70%;
+  }
+  .edgtf-iwt-content-holder {
+    display: inline-flex;
+    width: 100%;
+    padding: 0 !important;
+    justify-content: center;
+    height: 40%;
+  }
+  h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.15px;
+    text-align: center;
+  }
+}
+#grey-background-row {
+  border-radius: 20px !important;
+  max-width: 1085px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  min-height: 75px;
+  p {
+    margin: 0;
+  }
+  a {
+    font-size: 24px;
+    color: #2B71B7;
+    text-decoration: underline;
   }
 }
 #careers-paylocity-row {
@@ -692,7 +776,20 @@ iframe.paylocity-iframe {
       line-height: 28px;
     }
   }
-
+  .icon-bottombox {
+    div.vc_column-inner {
+      margin: 2%;
+    }
+    h5 {
+      font-size: 25px;
+      line-height: 28px;
+    }
+    .edgtf-iwt-icon-holder {
+      img {
+        max-width: 80%;
+      }
+    }
+  }
 }
 @media all and (max-width: 1170px) {
   .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
@@ -727,6 +824,31 @@ iframe.paylocity-iframe {
       width: 75%;
     }
   }
+  .icon-bottombox {
+    div.vc_column-inner {
+      margin: 3%;
+      min-height: 240px;
+      padding: 8px;
+      padding-top: 0;
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .edgtf-iwt-icon-holder,
+    .edgtf-iwt-content-holder {
+      height: 50%;
+      padding: 7%;
+    }
+    .edgtf-iwt-icon-holder {
+      img {
+        max-width: 69%;
+      }
+    }
+  }
+  #grey-background-row a {
+    font-size: 21px;
+}
   #future-events-row {
 
     #future-events-row-title {
@@ -802,7 +924,7 @@ iframe.paylocity-iframe {
   }
   .icon-topbox {
     div.vc_column-inner {
-      min-height: 175px;
+      min-height: 133px;
     }
     p {
       width: 90%;
@@ -838,6 +960,9 @@ iframe.paylocity-iframe {
       line-height: 40px;
       margin-top: 15px;
     }
+  }
+  #grey-background-row {
+    margin: 1%;
   }
 }
 
@@ -955,6 +1080,12 @@ iframe.paylocity-iframe {
     .icon-topbox.vc_column_container {
       display: flex;
       padding: 3% 0;
+    }
+    .icon-bottombox {
+      h5 {
+        font-size: 28px;
+        line-height: 45px;
+      }
     }
   }
   #asco_23_hero_row {
@@ -1112,6 +1243,12 @@ iframe.paylocity-iframe {
     }
     p:nth-child(4) {
       width: 65%;
+    }
+  }
+  .icon-bottombox {
+    h5 {
+      font-size: 28px;
+      line-height: 45px;
     }
   }
 }
