@@ -11,44 +11,6 @@
 .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
   width: 1397px;
 }
-@media only screen and (max-width: 1475px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 1197px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 950px;
-  }
-}
-@media only screen and (max-width: 1170px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 900px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 768px;
-  }
-  #careers_hero_row {
-    top: 0;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 600px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 420px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
-    width: 300px;
-  }
-}
 #careers_hero_row {
   h1 {
     color: #ffffff;
@@ -127,14 +89,74 @@
     line-height: 36px;
     color: #333333;
     font-weight: 400;
-    margin-top: 20px
+    margin-top: 20px;
   }
   p.careers-paragraph.bold {
     font-size: 32px;
     font-weight: bold;
     line-height: 45px;
     color: #333333;
-    margin-top: 20px
+    margin-top: 20px;
+  }
+}
+.edgtf-iwt:not(.edgtf-iwt-left-from-title):not(.edgtf-iwt-icon-top-with-separator) .edgtf-iwt-title-holder {
+  margin-bottom: 0 !important;
+}
+.icon-topbox.vc_column_container {
+  display: flex;
+  padding: 1%;
+
+}
+.icon-topbox.vc_column_container:nth-child(odd) {
+  justify-content: end;
+}
+.icon-topbox.vc_column_container:nth-child(even) {
+  justify-content: start;
+}
+.icon-topbox {
+
+  div.vc_column-inner {
+    max-width: 600px;
+    max-height: 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
+  .edgtf-iwt.edgtf-iwt-icon-left {
+    display: flex;
+  }
+  .edgtf-iwt-icon-holder {
+    display: inline-flex;
+    width: 40%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    float: unset !important;
+  }
+  .edgtf-iwt-content-holder {
+    display: inline-flex;
+    width: 60%;
+    padding: 0 !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: -0.15px;
+  }
+  p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 82%;
   }
 }
 #careers-paylocity-row {
@@ -160,9 +182,6 @@
   }
 }
 
-.space-70 {
-
-}
 div.container-iframe {
   position: relative;
   overflow: hidden;
@@ -605,7 +624,109 @@ iframe.paylocity-iframe {
   }
 }
 
+/*   END ASCO 2023 PAGE    */
+
+/*** Responsive Styles Standard Desktop Only - bmead I merged media queries where I could ***/
+
+@media all and (min-width: 767px) {
+  #asco_23_hero_row {
+    height: 336px;
+    background-position:
+      bottom 0 left 0,
+      center center !important;
+    background-size:
+      100%,
+      cover !important;
+    background-repeat: no-repeat !important;
+    background-image:
+      url(/wp-content/uploads/2023/05/Hero_white_wave.png),
+      url(/wp-content/uploads/2023/04/Hero_DT.png);
+  }
+  #careers_hero_row {
+    height: 465px;
+    background-position: bottom 0 left 0 !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url(/wp-content/uploads/2023/05/career-page-header-1921x458-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 1100px) {
+
+}
+
+/**** Billie Careers page ****/
+@media all and (max-width: 1475px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 1197px;
+  }
+  .icon-topbox { 
+    p {
+      width: 95%;
+    }
+  }
+}
+@media all and (max-width: 1200px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 950px;
+  }
+  .edgtf-iwt:not(.edgtf-iwt-left-from-title):not(.edgtf-iwt-icon-top-with-separator) .edgtf-iwt-title-holder {
+    margin-bottom: 10px !important;
+  }
+  .icon-topbox {
+    .edgtf-iwt-icon-holder {
+      img {
+        max-width: 80%;
+      }
+    }
+    h5 {
+      font-size: 25px;
+      line-height: 28px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+}
+@media all and (max-width: 1170px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 900px;
+  }
+}
 @media all and (max-width: 1024px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 768px;
+  }
+  .edgtf-iwt:not(.edgtf-iwt-left-from-title):not(.edgtf-iwt-icon-top-with-separator) .edgtf-iwt-title-holder {
+    margin-bottom: 8px !important;
+  }
+  .icon-topbox {
+    .edgtf-iwt-icon-holder {
+      img {
+        max-width: 75%;
+      }
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      padding: 0;
+      margin: 0;
+      width: 88%;
+    }
+    .edgtf-iwt-content-holder {
+      width: 75%;
+    }
+  }
   #future-events-row {
 
     #future-events-row-title {
@@ -668,39 +789,71 @@ iframe.paylocity-iframe {
     right: inherit;
 
   }
-}
-@media all and (max-width: 1024px) {
   #careers_hero_row {
     top: -54px;
   }
 }
-@media all and (min-width: 767px) {
-  #asco_23_hero_row {
-    height: 336px;
-    background-position:
-      bottom 0 left 0,
-      center center !important;
-    background-size:
-      100%,
-      cover !important;
-    background-repeat: no-repeat !important;
-    background-image:
-      url(/wp-content/uploads/2023/05/Hero_white_wave.png),
-      url(/wp-content/uploads/2023/04/Hero_DT.png);
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+  #elevar-ppl-row {
+    height: auto;
+    background-image: none;
+    background-color: $drk_blue;
   }
-  #careers_hero_row {
-    height: 465px;
-    background-position: bottom 0 left 0 !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-image: url(/wp-content/uploads/2023/05/career-page-header-1921x458-1.jpg);
-    display: flex;
-    flex-direction: column;
+  .icon-topbox {
+    div.vc_column-inner {
+      min-height: 175px;
+    }
+    p {
+      width: 90%;
+    }
+  }
+  .edgtf-iwt.edgtf-iwt-icon-left {
+    text-align: center;
+  }
+  .icon-topbox.vc_column_container:nth-child(odd) {
     justify-content: center;
-    align-items: center;
+  }
+  .icon-topbox.vc_column_container:nth-child(even) {
+    justify-content: center;
+  }
+
+  #mission-statement,
+  #core-values,
+  #our-purpose,
+  #what-we-offer,
+  #careers-paylocity-row {
+    h2.careers-blue-headings  {
+      font-size: 35px;
+      line-height: 42px;
+      letter-spacing: -0.25px;
+    }
+    p.careers-paragraph {
+      font-size: 20px;
+      line-height: 32px;
+      margin-top: 15px;
+    }
+    p.careers-paragraph.bold {
+      font-size: 28px;
+      line-height: 40px;
+      margin-top: 15px;
+    }
   }
 }
 
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 768px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 600px;
+  }
+}
+
+/**** Billie Careers page ****/
 @media all and (max-width: 767px) {
   #spotlight-row {
     padding: 0 0 20px 15px !important;
@@ -751,6 +904,59 @@ iframe.paylocity-iframe {
       flex-direction: column;
     }
   }
+  .icon-topbox {
+    .edgtf-iwt.edgtf-iwt-icon-left {
+      flex-direction: column;
+    }
+    .edgtf-iwt-icon-holder {
+      width: 100%;
+      display: flex;
+    }
+    .edgtf-iwt-content-holder {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    div.vc_column-inner {
+      max-width: 600px;
+      max-height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-size: 100% 100%!important;
+      background-repeat: no-repeat;
+      padding: 0;
+      aspect-ratio: 1/1;
+      background-image: url(/wp-content/themes/conall-child/dist/images/Elevar_Gradient_MOB.png) !important;
+    }
+    .edgtf-iwt-content-holder {
+      width: 88%;
+      margin: 0 auto;
+    }
+    h5 {
+      font-size: 28px;
+      line-height: 45px;
+      margin-top: 15px !important;
+    }
+    p {
+      font-size: 21px;
+      line-height: 32px;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+      width: 90%;
+    }
+    .edgtf-iwt-icon-holder {
+      display: inline-flex;
+      aspect-ratio: 2/1;
+      align-items: start;
+    }
+    .icon-topbox.vc_column_container {
+      display: flex;
+      padding: 3% 0;
+    }
+  }
   #asco_23_hero_row {
     height: 80vh;
     background-repeat: no-repeat !important;
@@ -771,7 +977,6 @@ iframe.paylocity-iframe {
   #form-container-row {
     padding: 40px 20px !important;
   }
-
   #spacer-row {
     #dates-cols-row {
       .edgtf-full-section-inner {
@@ -792,7 +997,6 @@ iframe.paylocity-iframe {
       }
     }
   }
-
   #temp-footer-row {
 
     #temp-footer-container {
@@ -824,43 +1028,91 @@ iframe.paylocity-iframe {
       }
     }
   }
-
 }
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-  #elevar-ppl-row {
-    height: auto;
-    background-image: none;
-    background-color: $drk_blue;
+@media all and (max-width: 600px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 420px;
+  }
+  .icon-topbox div.vc_column-inner {
+    padding: 12%;
+  }
+  #careers-paylocity-row {
+    h4.eoe-headline,
+    p.eoe-copy {
+      font-size: 21px;
+    }
+    .space-70 {
+      display: none;
+    }
   }
 }
 
-/*   END ASCO 2023 PAGE    */
-
-
-
-/*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 1100px) {
-
-}
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-
-}
-
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-
-}
-
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
-
-}
-
 /*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-
+@media all and (max-width: 480px) {
+  .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
+    width: 350px;
+  }
+  #mission-statement {
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+  }
+  #mission-statement,
+  #core-values,
+  #our-purpose,
+  #what-we-offer,
+  #careers-paylocity-row {
+    h2.careers-blue-headings  {
+      font-size: 28px;
+      line-height: 36px;
+      letter-spacing: -0.15px;
+    }
+    p.careers-paragraph {
+      font-size: 21px;
+      line-height: 32px;
+      margin-top: 30px;
+    }
+    p.careers-paragraph.bold {
+      font-size: 24px;
+      line-height: 35px;
+      margin-top: 30px;
+    }
+  }
+  .edgtf-iwt:not(.edgtf-iwt-left-from-title):not(.edgtf-iwt-icon-top-with-separator) .edgtf-iwt-title-holder {
+    margin-bottom: 0px!important;
+  }
+  .icon-topbox.vc_column_container {
+    display: flex;
+    padding: 4%;
+  }
+  .icon-topbox {
+    .edgtf-iwt-content-holder {
+      width: 88%;
+      margin: 0 auto;
+    }
+    div.vc_column-inner {
+      padding: 0;
+    }
+    h5 {
+      font-size: 28px;
+      line-height: 45px;
+      margin-top: 15px !important;
+    }
+    h5:nth-child(2) {
+      margin-top: 15px !important;
+    }
+    p {
+      font-size: 21px;
+      line-height: 32px;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+    p:nth-child(2) {
+      width: 70%;
+    }
+    p:nth-child(4) {
+      width: 65%;
+    }
+  }
 }
+
