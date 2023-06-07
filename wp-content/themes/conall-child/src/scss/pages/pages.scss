@@ -724,6 +724,18 @@ iframe.paylocity-iframe {
   }
 }
 
+@media all and (max-width: 1340px) {
+  #book-meeting-cta {
+    position: relative;
+    width: 282px;
+    margin: 0 auto;
+    top: inherit;
+    right: inherit;
+
+  }
+}
+
+
 /*hide date and address*/
 #visit-us-subtitle,
 #address-line {
