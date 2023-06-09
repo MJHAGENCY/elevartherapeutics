@@ -40,12 +40,21 @@
     max-width: 1100px;
   }
 }
+/* #icon-row3 > div > div.wpb_column.vc_column_container.vc_col-sm-12 > div {
+  padding-left: 0;
+} */
 #open-positions-cta {
   width: 329px;
   position: absolute;
   top: 0;
   right: 10vw;
   z-index: 102;
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
   p {
     margin: 0;
   }
@@ -199,6 +208,7 @@
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     padding: 0;
+    margin-right: 20px;
   }
   .wpb_wrapper {
     height: 100%;
@@ -246,14 +256,26 @@
   margin-top: 25px;
   margin-left: -15px;
   margin-right: -15px;
-  min-height: 75px;
+  min-height: 85px;
   p {
     margin: 0;
-  }
+    padding: 0;
+    height: 48px;
+    text-align: center;
   a {
     font-size: 22px;
     color: #2B71B7;
-    text-decoration: underline;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 22px;
+      img {
+        display: inline-flex;
+        margin: 0; margin-right: 20px;
+      }
+    }
   }
 }
 #careers-paylocity-row {
@@ -544,12 +566,6 @@ iframe.paylocity-iframe {
       margin-right: 0;
       margin-left: 0;
       padding: 0 20px !important;
-
-
-      .edgtf-full-section-inner .wpb_column:first-child .vc_column-inner {
-
-      }
-
     }
   }
 
@@ -936,13 +952,6 @@ iframe.paylocity-iframe {
       }
     }
   }
-
-  #spacer-row {
-    #dates-cols-row {
-
-    }
-  }
-
   #book-meeting-cta {
     position: relative;
     width: 282px;
@@ -1003,32 +1012,16 @@ iframe.paylocity-iframe {
   }
   #grey-background-row {
     margin-top: 8px;
+    padding:10px 20px;
+    a {
+      text-align: left;
+      padding-left: 10px;
+    }
   }
   #bottombox3 .vc_column_container {
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* #mission-statement,
-  #core-values,
-  #our-purpose,
-  #what-we-offer,
-  #careers-paylocity-row {
-    h2.careers-blue-headings  {
-      font-size: 35px;
-      line-height: 42px;
-      letter-spacing: -0.25px;
-    }
-    p.careers-paragraph {
-      font-size: 20px;
-      line-height: 32px;
-      margin-top: 15px;
-    }
-    p.careers-paragraph.bold {
-      font-size: 28px;
-      line-height: 40px;
-      margin-top: 15px;
-    }
-  }*/
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -1046,6 +1039,10 @@ iframe.paylocity-iframe {
     min-height: 55px;
     max-width: 600px;
     margin-left: 0;
+/*     padding: 0 20px;
+  }
+  p {
+    height: 66px; */
   }
   .icon-topbox {
     p {
@@ -1119,7 +1116,7 @@ iframe.paylocity-iframe {
     .edgtf-iwt-icon-holder {
       width: 100%;
       display: inline-flex;
-      aspect-ratio: 2/1;
+/*       aspect-ratio: 2/1; */
       align-items: center;
     }
     .edgtf-iwt-content-holder {
@@ -1323,11 +1320,15 @@ iframe.paylocity-iframe {
     }
   }
   #grey-background-row {
+    p {
+      height: initial;
+      a {
+        font-size: 18px;
+      }
+    }
     min-height: 100px;
   }
-  #grey-background-row a {
-    font-size: 18px;
-  }
+
   div.container-iframe {
     margin-top: 25px;
   }
@@ -1342,28 +1343,6 @@ iframe.paylocity-iframe {
     padding-top: 30px !important;
     padding-bottom: 0px !important;
   }
-  /*
-  #mission-statement,
-  #core-values,
-  #our-purpose,
-  #what-we-offer,
-  #careers-paylocity-row {
-    h2.careers-blue-headings  {
-      font-size: 28px;
-      line-height: 36px;
-      letter-spacing: -0.15px;
-    }
-    p.careers-paragraph {
-      font-size: 21px;
-      line-height: 32px;
-      margin-top: 30px;
-    }
-    p.careers-paragraph.bold {
-      font-size: 24px;
-      line-height: 35px;
-      margin-top: 30px;
-    }
-  }*/
   .edgtf-iwt:not(.edgtf-iwt-left-from-title):not(.edgtf-iwt-icon-top-with-separator) .edgtf-iwt-title-holder {
     margin-bottom: 0px!important;
   }
@@ -1379,6 +1358,9 @@ iframe.paylocity-iframe {
     .edgtf-iwt-content-holder {
       width: 88%;
       margin: 0 auto;
+    }
+    .edgtf-iwt-icon-holder img {
+      max-width: 150px;
     }
     div.vc_column-inner {
       padding: 0;
@@ -1410,6 +1392,9 @@ iframe.paylocity-iframe {
       width: 88%;
       margin: 0 auto;
     }
+    .edgtf-iwt-icon-holder img {
+      max-width: 150px;
+    }
     div.vc_column-inner {
       padding: 0;
     }
@@ -1422,10 +1407,18 @@ iframe.paylocity-iframe {
     min-height: 125px;
     margin: 0%;
     margin-top: 20px;
-  }
-  #grey-background-row a {
-    font-size: 18px;
-    text-align: center;
+    padding: 10px 20px;
+    p {
+    height: unset; 
+      a {
+      font-size: 19px;
+      text-align: center;
+      padding-left: 0;
+      flex-direction: column;
+        img {
+        margin: 0 0 10px 0;
+        }
+      }
+    }
   }
 }
-
