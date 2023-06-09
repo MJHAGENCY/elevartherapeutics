@@ -13,8 +13,8 @@
 }
 #careers_hero_row {
   h1 {
-    color: #ffffff;
-    border-bottom: 3px solid #fff;
+    color: $white;
+    border-bottom: 3px solid $white;
     width: 260px;
     padding-bottom: 15px;
     letter-spacing: 4.5px;
@@ -28,7 +28,7 @@
   #careers-subtitle {
     h3 {
         margin-top: 20px;
-        color: #ffffff;
+        color: $white;
         font-size: 30px;
         font-weight: 600;
         filter: drop-shadow(0px 0px 4px #000);
@@ -75,9 +75,9 @@
     padding: 0 12px;
     border-radius: 0 0 6px 6px;
     background: $lt_blue;
-    color: #fff !important;
+    color: $white !important;
     &:hover {
-      background: #fff;
+      background: $white;
       color: $lt_blue !important;
       border: 1px solid $lt_blue;
     }
@@ -93,7 +93,7 @@
     font-weight: 600;
     font-size: 28px;
     line-height: 1.2em;
-    color: #2B71B7;
+    color: $careers_blue;
     text-transform: uppercase;
   }
   p.careers-paragraph {
@@ -163,14 +163,14 @@
     width: 100%;
   }
   h5 {
-    color: #fff;
+    color: $white;
     font-weight: 600;
     font-size: 28px;
     line-height: 1.5em;
     letter-spacing: 0;
   }
   p {
-    color: #fff;
+    color: $white;
     font-weight: 400;
     font-size: 18px;
     line-height: 2rem;
@@ -238,7 +238,7 @@
     height: 40%;
   }
   h5 {
-    color: #fff;
+    color: $white;
     font-weight: 600;
     font-size: 28px;
     line-height: 1.2em;
@@ -246,7 +246,7 @@
     letter-spacing: 0;
   }
 }
-#grey-background-row {
+#colored-healthcare-button {
   border-radius: 20px !important;
   margin: 0 auto;
   display: flex;
@@ -256,7 +256,8 @@
   margin-top: 25px;
   margin-left: -15px;
   margin-right: -15px;
-  min-height: 85px;
+  min-height: 75px;
+  background-color: #524487;
   p {
     margin: 0;
     padding: 0;
@@ -264,11 +265,11 @@
     text-align: center;
   a {
     font-size: 22px;
-    color: #2B71B7;
+    color: $white;
     display: inline-flex !important;
     justify-content: center !important;
     align-items: center !important;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     line-height: 22px;
       img {
@@ -283,7 +284,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.5em;
-    color: #54C1EA;
+    color: $lt_blue;
     letter-spacing: -0.25px;
     margin: 0;
   }
@@ -297,7 +298,7 @@
     margin-top: 15px;
   }
   a.recruiting-email {
-    color: #2B71B7;
+    color: $careers_blue;
   }
 }
 
@@ -306,7 +307,7 @@ div.container-iframe {
   overflow: hidden;
   width: 100%;
   padding-top: 62.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  background-color: #fff;
+  background-color: $white;
   margin: 0 auto;
 }
 iframe.paylocity-iframe {
@@ -318,7 +319,7 @@ iframe.paylocity-iframe {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: $white;
 }
 
 /*    ASCO 2023 PAGE    */
@@ -352,10 +353,10 @@ iframe.paylocity-iframe {
       }
     }
     .copy-right-line {
-      color: #fff;
+      color: $white;
     }
     #bottom-links {
-      color: #fff;
+      color: $white;
     }
   }
 }
@@ -365,7 +366,7 @@ iframe.paylocity-iframe {
     text-transform: uppercase;
   }
   h1, h3 {
-    color: #fff;
+    color: $white;
     font-weight: 600;
   }
   #visit-us-subtitle {
@@ -374,8 +375,8 @@ iframe.paylocity-iframe {
   #address-line {
     a {
       font-size: 20px;
-      color: #fff;
-      border-bottom: 1px solid #fff;
+      color: $white;
+      border-bottom: 1px solid $white;
       padding: 0 0 2px;
       .sm_logo_icon {
         display: inline-block;
@@ -442,7 +443,7 @@ iframe.paylocity-iframe {
 
 #spotlight-row {
   display: block !important;
-  background: #fff;
+  background: $white;
   padding: 40px 0 60px;
 }
 
@@ -455,7 +456,7 @@ iframe.paylocity-iframe {
 
 #spotlight-row {
 
-  background: #fff;
+  background: $white;
   padding: 40px 0 60px;
 
   h4 {
@@ -487,14 +488,14 @@ iframe.paylocity-iframe {
     border-radius: 6px;
     background: $lt_blue;
     &:hover {
-      background: #fff;
+      background: $white;
       a {
           color: $lt_blue;
       }
     }
     a {
       display: block;
-      color: #fff;
+      color: $white;
       font-weight: 600;
       font-size: 20px;
       height: 100%;
@@ -511,7 +512,7 @@ iframe.paylocity-iframe {
 #spacer-row {
 
   padding: 40px 0 60px;
-  background: #fff;
+  background: $white;
 
   h4 {
     font-size: 28px;
@@ -595,7 +596,7 @@ iframe.paylocity-iframe {
       font-size: 2rem;
       font-weight: 600;
       text-transform: uppercase;
-      color: #fff;
+      color: $white;
     }
   }
   #imgs-block {
@@ -616,10 +617,10 @@ iframe.paylocity-iframe {
           .wpb_text_column {
 
 
-            color: #fff !important;
+            color: $white !important;
             padding: 0 20px 40px;
             h4 {
-              color: #fff !important;
+              color: $white !important;
               font-size: 26px;
               width: 100%;
             }
@@ -649,7 +650,7 @@ iframe.paylocity-iframe {
 
   #future-events-row-title {
     h4 {
-      color: #fff;
+      color: $white;
       font-size: 24px;
       font-weight: 500;
       margin: 20px 0 30px;
@@ -658,14 +659,14 @@ iframe.paylocity-iframe {
 
   #future-events-row-info-blocks {
     p {
-      color: #fff;
+      color: $white;
       font-size: 17px;
       .date-in-barca {
         color: $magenta;
       }
     }
     a {
-      color: #fff;
+      color: $white;
       text-decoration: underline;
     }
     .edgtf-full-section-inner {
@@ -731,9 +732,9 @@ iframe.paylocity-iframe {
     padding: 0 12px;
     border-radius: 0 0 6px 6px;
     background: $lt_blue;
-    color: #fff !important;
+    color: $white !important;
     &:hover {
-      background: #fff;
+      background: $white;
       color: $lt_blue !important;
       border: 1px solid $lt_blue;
     }
@@ -910,7 +911,7 @@ iframe.paylocity-iframe {
       }
     }
   }
-  #grey-background-row a {
+  #colored-healthcare-button a {
     font-size: 18px;
 }
   #future-events-row {
@@ -1010,7 +1011,7 @@ iframe.paylocity-iframe {
   .icon-bottombox.vc_column_container {
     justify-content: center;
   }
-  #grey-background-row {
+  #colored-healthcare-button {
     margin-top: 8px;
     padding:10px 20px;
     a {
@@ -1034,7 +1035,7 @@ iframe.paylocity-iframe {
   .page-id-17194 .edgtf-grid-section .edgtf-section-inner {
     width: 600px;
   }
-  #grey-background-row {
+  #colored-healthcare-button {
     border-radius: 10px!important;
     min-height: 55px;
     max-width: 600px;
@@ -1254,7 +1255,7 @@ iframe.paylocity-iframe {
         }
       }
       .copy-right-line {
-        color: #fff;
+        color: $white;
       }
       #bottom-links {
         span {
@@ -1319,7 +1320,7 @@ iframe.paylocity-iframe {
       display: none;
     }
   }
-  #grey-background-row {
+  #colored-healthcare-button {
     p {
       height: initial;
       a {
@@ -1359,6 +1360,9 @@ iframe.paylocity-iframe {
       width: 88%;
       margin: 0 auto;
     }
+    .edgtf-iwt-icon-holder {
+      aspect-ratio: initial;
+    }
     .edgtf-iwt-icon-holder img {
       max-width: 150px;
     }
@@ -1367,15 +1371,12 @@ iframe.paylocity-iframe {
     }
     h5 {
       font-size: 28px;
-      line-height: 45px;
-      margin-top: 15px !important;
-    }
-    h5:nth-child(2) {
-      margin-top: 15px !important;
+      line-height: 32px;
+      margin-top: 10px !important;
     }
     p {
       font-size: 18px;
-      line-height: 28px;
+      line-height: 24px;
       padding: 0;
       margin: 0 auto;
       text-align: center;
@@ -1403,20 +1404,20 @@ iframe.paylocity-iframe {
       line-height: 32px;
     }
   }
-  #grey-background-row {
-    min-height: 125px;
+  #colored-healthcare-button {
+    min-height: 153px;
     margin: 0%;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 0 24px;
     p {
     height: unset; 
       a {
-      font-size: 19px;
-      text-align: center;
+      font-size: 21px;
+      text-align: left;
       padding-left: 0;
-      flex-direction: column;
+      line-height: 1.75rem;
         img {
-        margin: 0 0 10px 0;
+        margin-right: 20px;
         }
       }
     }
