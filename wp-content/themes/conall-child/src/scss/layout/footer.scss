@@ -2,6 +2,9 @@
 
 footer {
   .edgtf-footer-bottom-holder {
-    background-color: $lt_blue;
+    background-color: $lt_blue !important;
+  }
+  .widget {
+    color: #fff !important;
   }
 }
