@@ -35,7 +35,7 @@ i.edgtf-icon-font-awesome.fa.fa-search {
 }
 
 .edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li.edgtf-active-item > a {
-  color: $elevar_blue;
+  color: $elevar_blue !important;
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
