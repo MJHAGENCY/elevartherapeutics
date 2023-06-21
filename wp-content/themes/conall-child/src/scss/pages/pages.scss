@@ -25,7 +25,6 @@
 @media only screen and (max-width: 1024px) {
   .home {
     .edgtf-title {
-      background: $elevar_blue !important;
       .edgtf-title-holder {
         h1 {
           font-size: 40px !important;
@@ -34,6 +33,9 @@
           font-size: 22px;
         }
       }
+    }
+    .edgtf-title.edgtf-has-background {
+      background: $elevar_blue !important;
     }
   }
 }
