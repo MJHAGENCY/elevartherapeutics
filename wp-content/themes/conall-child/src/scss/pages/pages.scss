@@ -2,6 +2,24 @@
 @import "../base/colors";
 
 /*  HOME PAGE   */
+.home {
+  .edgtf-title {
+    .edgtf-title-holder {
+      h1 {
+        font-size: 54px;
+        font-weight: 600;
+        text-shadow: 3px 3px 12px $drop_shadow;
+      }
+      .edgtf-subtitle {
+        font-size: 38px;
+        font-weight: 600;
+        text-shadow: 0 3px 8px $drop_shadow;
+      }
+    }
+  }
+}
+
+/* END HOME PAGE   */
 
 /*  CAREERS 2023 BillieMead   */
 
