@@ -4,7 +4,7 @@
 /*  HOME PAGE   */
 .home {
   .edgtf-title {
-    background-color: $elevar_blue !important;
+    background: $elevar_blue !important;
     .edgtf-title-holder {
       h1 {
         font-size: 54px !important;
@@ -25,6 +25,7 @@
 @media only screen and (max-width: 1024px) {
   .home {
     .edgtf-title {
+      background: $elevar_blue !important;
       .edgtf-title-holder {
         h1 {
           font-size: 40px !important;
