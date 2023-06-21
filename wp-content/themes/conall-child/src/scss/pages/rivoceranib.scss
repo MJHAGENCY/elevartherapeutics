@@ -1,6 +1,6 @@
 @import "../base/colors";
 
-      /*      Rivoceranib page          */
+/*      Rivoceranib page          */
 
 #about-rivoceranib {
   .new-txt-block {
@@ -10,8 +10,30 @@
       margin: 25px 0 !important;
       color: $elevar_blue;
     }
+
     p {
       color: $drk_gray;
+    }
+  }
+
+  #study-numbers {
+    width: 70%;
+    margin: 0 auto;
+
+    background-image: url(/wp-content/uploads/2023/06/DL_Icon.png),
+    url(/wp-content/uploads/2023/06/DL_Icon.png);
+
+    background-position:
+      center left 20px,
+      center right 20px;
+
+    background-repeat: no-repeat;
+
+    background: rgb(79, 79, 144);
+    background: linear-gradient(90deg, rgba(79, 79, 144, 1) 0%, rgba(48, 166, 190, 1) 100%);
+    .studied-6000 {
+      /*background: rgb(79, 79, 144);
+      background: linear-gradient(90deg, rgba(79, 79, 144, 1) 0%, rgba(48, 166, 190, 1) 100%);*/
     }
   }
 }
