@@ -43,7 +43,7 @@
 .new-center-row {
 
   .wpb_column:nth-child(2) {
-    .wpb_row {
+    .vc_column-inner:nth-child(1) {
       width: 85%;
       margin: 0 auto;
     }
@@ -103,7 +103,7 @@
 @media all and (max-width: 878px) {
 
   .new-center-row {
-    .wpb_row {
+    .vc_column-inner:nth-child(1) {
         width: 90%;
         margin: 0 auto;
     }
@@ -146,7 +146,7 @@
 
 @media all and (max-width: 390px) {
   .new-center-row {
-    .wpb_row {
+    .vc_column-inner:nth-child(1) {
         width: 90%;
         margin: 0 auto;
     }
