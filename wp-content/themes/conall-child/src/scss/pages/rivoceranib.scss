@@ -42,11 +42,6 @@
 
 .new-center-row {
 
- /* .wpb_column:nth-child(2) {
-      width: 85%;
-      margin: 0 auto;
-  }*/
-
   h3 {
     font-size: 26px;
     font-weight: 500;
@@ -64,9 +59,15 @@
     width: 70%;
     margin: 0 auto;
     padding: 10px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background: rgb(79, 79, 144);
-    background: -webkit-gradient(linear, left top, right top, from(rgba(79, 79, 144, 1)), to(rgba(48, 166, 190, 1)));
     background: -o-linear-gradient(left, rgba(79, 79, 144, 1) 0%, rgba(48, 166, 190, 1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(79, 79, 144, 1)), to(rgba(48, 166, 190, 1)));
     background: linear-gradient(90deg, rgba(79, 79, 144, 1) 0%, rgba(48, 166, 190, 1) 100%);
     border-radius: 10px;
 
@@ -99,13 +100,6 @@
 }
 
 @media all and (max-width: 878px) {
-
-/*  .new-center-row {
-    .wpb_column:nth-child(2) {
-        width: 90%;
-        margin: 0 auto;
-    }
-  }*/
 
   #about-rivoceranib {
     #study-numbers {
@@ -143,12 +137,7 @@
 }
 
 @media all and (max-width: 390px) {
-/*  .new-center-row {
-    .wpb_column:nth-child(2) {
-        width: 90%;
-        margin: 0 auto;
-    }
-  }*/
+
   #about-rivoceranib {
     #study-numbers {
       .wpb_wrapper {
