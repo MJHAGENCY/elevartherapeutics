@@ -43,10 +43,8 @@
 .new-center-row {
 
   .wpb_column:nth-child(2) {
-    .wpb_column:nth-child(2) {
       width: 85%;
       margin: 0 auto;
-    }
   }
 
   h3 {
@@ -162,9 +160,10 @@
 }
 
 /*clinical-studies-section*/
-#clinical-studies-section {
-  .new-center-row {
-
+#clinical-studies-section.new-center-row {
+  .wpb_column:nth-child(2) {
+    width: inherit;
+    margin: inherit;
   }
 }
 
