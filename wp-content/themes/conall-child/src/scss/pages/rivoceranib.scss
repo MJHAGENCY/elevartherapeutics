@@ -195,12 +195,13 @@
   .moa-cta-btn {
     display: block;
     margin: 0 auto;
-    padding: 10px 20px 10px 80px !important;
+    padding: 10px 20px 10px 70px !important;
     border-radius: 6px;
     width: 50%;
     background-image: url(/wp-content/uploads/2023/06/DL_Icon.png);
     background-repeat: no-repeat;
     background-position: center left 20px;
+    background-size: 7%;
     &:hover {
       background-color: $elevar_purple !important;
       opacity: 0.7 !important;
