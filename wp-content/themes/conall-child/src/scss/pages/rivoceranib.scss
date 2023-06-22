@@ -146,10 +146,17 @@
   }
 }
 
-@media all and (max-width: 370px)  {
+@media all and (max-width: 370px) {
+  .new-center-row {
+    .wpb_column:nth-child(2) {
+      .wpb_wrapper {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
   #about-rivoceranib {
     #study-numbers {
-
       .wpb_wrapper {
         width: 280px;
         height: 280px;
@@ -157,5 +164,6 @@
     }
   }
 }
+
 
 
