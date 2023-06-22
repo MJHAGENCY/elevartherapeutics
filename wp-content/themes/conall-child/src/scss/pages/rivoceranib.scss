@@ -101,6 +101,16 @@
 }
 
 @media all and (max-width: 878px) {
+
+  .new-center-row {
+    .wpb_column:nth-child(2) {
+      .wpb_wrapper {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+
   #about-rivoceranib {
     #study-numbers {
       width: 100%;
