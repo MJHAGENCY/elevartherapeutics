@@ -40,10 +40,10 @@
   }
 }
 
- .new-center-row {
+.new-center-row {
 
   .wpb_column:nth-child(2) {
-    .wpb_wrapper:nth-child(1) {
+    .wpb_wrapper {
       width: 85%;
       margin: 0 auto;
     }
@@ -104,7 +104,7 @@
 
   .new-center-row {
     .wpb_column:nth-child(2) {
-      .wpb_wrapper:nth-child(1) {
+      .wpb_wrapper {
         width: 90%;
         margin: 0 auto;
       }
@@ -149,7 +149,7 @@
 @media all and (max-width: 390px) {
   .new-center-row {
     .wpb_column:nth-child(2) {
-      .wpb_wrapper:nth-child(1) {
+      .wpb_wrapper {
         width: 90%;
         margin: 0 auto;
       }
