@@ -100,7 +100,7 @@
   }
 }
 
-@media all and (max-width: 876px) {
+@media all and (max-width: 878px) {
   #about-rivoceranib {
     #study-numbers {
       width: 100%;
@@ -111,13 +111,13 @@
       border-radius: inherit;
 
       .wpb_wrapper {
-        width: 90vw;
-        height: 90vw;
+        width: 80vw;
+        height: 80vw;
         color: #fff;
         background: url("/wp-content/uploads/2023/06/study-numbers-mobi.png") no-repeat center center ;
         background-position: inherit;
         background-repeat: no-repeat;
-        background-size: inherit;
+        background-size: cover;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
