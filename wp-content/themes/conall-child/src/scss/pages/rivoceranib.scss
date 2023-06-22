@@ -43,10 +43,7 @@
 
 .new-center-row {
 
-/*  .wpb_column:nth-child(2) {
-    width: 85%;
-    margin: 0 auto;
-  }*/
+  padding: 20px;
 
   h3 {
     font-size: 26px;
@@ -188,4 +185,10 @@
 /*    MOA SECTION   */
 #moa-section {
   background: #EAEAEA;
+  .moa-info-block {
+    .vp-img-paragraph,
+    .wpb_single_image {
+      width: 90%;
+    }
+  }
 }
