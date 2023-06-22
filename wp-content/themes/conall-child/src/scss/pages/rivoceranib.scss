@@ -3,7 +3,7 @@
 /*      Rivoceranib page          */
 .page-id-15095 {
   .edgtf-title {
-    background: $elevar_blue !important;
+    background: #fff !important;
 
     .edgtf-title-holder {
       h1 {
@@ -19,6 +19,23 @@
         font-weight: 500;
         text-shadow: 0 3px 8px $drop_shadow;
       }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .page-id-15095 {
+    .edgtf-title {
+      .edgtf-title-holder {
+        h1 {
+          font-size: 40px !important;
+        }
+        .edgtf-subtitle {
+          font-size: 22px;
+        }
+      }
+    }
+    .edgtf-title.edgtf-has-background {
+      background: #fff !important;
     }
   }
 }
