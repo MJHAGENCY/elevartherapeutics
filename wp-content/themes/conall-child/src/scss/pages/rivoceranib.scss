@@ -3,17 +3,16 @@
 /*      Rivoceranib page          */
 
 #about-rivoceranib {
-  &.new-txt-block {
-    h3 {
-      font-size: 26px;
-      font-weight: 500;
-      margin: 25px 0 !important;
-      color: $elevar_blue;
-    }
 
-    p {
-      color: $drk_gray;
-    }
+  h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 25px 0 !important;
+    color: $elevar_blue;
+  }
+
+  p {
+    color: $drk_gray;
   }
 
   #study-numbers {
@@ -45,6 +44,7 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
+
       p {
         margin: 0;
       }
