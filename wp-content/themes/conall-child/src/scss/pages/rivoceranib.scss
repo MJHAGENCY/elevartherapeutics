@@ -22,6 +22,7 @@
     }
   }
 }
+
 @media all and (max-width: 1024px) {
   .page-id-15095 {
     .edgtf-title {
@@ -41,6 +42,10 @@
 }
 
 .new-center-row {
+
+  & > .wpb_column:nth-child(2) {
+    width: 85%;
+  }
 
   h3 {
     font-size: 26px;
@@ -101,7 +106,13 @@
 
 @media all and (max-width: 878px) {
 
-  #about-rivoceranib {
+  .new-center-row {
+    & > .wpb_column:nth-child(2) {
+      width: 90%;
+    }
+  }
+  
+    #about-rivoceranib {
     #study-numbers {
       width: 100%;
       height: auto;
