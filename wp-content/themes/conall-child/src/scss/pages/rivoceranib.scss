@@ -43,7 +43,7 @@
 .new-center-row {
 
   .wpb_column:nth-child(2) {
-    .wpb_wrapper {
+    .wpb_wrapper:nth-of-type(1) {
       width: 85%;
       margin: 0 auto;
     }
@@ -103,7 +103,7 @@
 @media all and (max-width: 878px) {
 
   .new-center-row {
-    .wpb_column:nth-child(2) {
+    .wpb_wrapper:nth-of-type(1) {
       .wpb_wrapper {
         width: 90%;
         margin: 0 auto;
@@ -148,7 +148,7 @@
 
 @media all and (max-width: 390px) {
   .new-center-row {
-    .wpb_column:nth-child(2) {
+    .wpb_wrapper:nth-of-type(1) {
       .wpb_wrapper {
         width: 90%;
         margin: 0 auto;
@@ -165,5 +165,12 @@
   }
 }
 
+/*clinical-studies-section*/
+#clinical-studies-section {
+  .new-center-row {
+    .wpb_column:nth-child(2) {
 
+    }
+  }
+}
 
