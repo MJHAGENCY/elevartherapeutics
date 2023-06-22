@@ -1,12 +1,33 @@
 @import "../base/colors";
 
 /*      Rivoceranib page          */
+.page-id-15095 {
+  .edgtf-title {
+    background: $elevar_blue !important;
+
+    .edgtf-title-holder {
+      h1 {
+        font-size: 54px !important;
+        font-weight: 600;
+        text-shadow: 3px 3px 12px $drop_shadow;
+        padding: 0 0 20px;
+        border-bottom: 3px solid #fff;
+      }
+
+      .edgtf-subtitle {
+        font-size: 35px;
+        font-weight: 500;
+        text-shadow: 0 3px 8px $drop_shadow;
+      }
+    }
+  }
+}
 
  .new-center-row {
 
   .wpb_column:nth-child(2) {
     .wpb_wrapper {
-      width: 75%;
+      width: 85%;
       margin: 0 auto;
     }
   }
