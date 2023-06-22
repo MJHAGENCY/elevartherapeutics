@@ -161,9 +161,24 @@
 
 /*clinical-studies-section*/
 #clinical-studies-section.new-center-row {
-  .wpb_column:nth-child(2) {
-    width: inherit;
-    margin: inherit;
+  .wpb_single_image {
+    margin: 25px 0 0;
   }
 }
+@media all and (max-width: 878px) {
+  #clinical-studies-section.new-center-row {
+    .wpb_single_image {
+      margin: 25px 0 0;
+    }
 
+
+    .vc_row {
+      .wpb_column:nth-child(1) {
+        width: 100%;
+      }
+      .wpb_column:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}
