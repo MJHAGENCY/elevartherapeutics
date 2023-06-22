@@ -26,13 +26,14 @@
     background: linear-gradient(90deg, rgba(79, 79, 144, 1) 0%, rgba(48, 166, 190, 1) 100%);
     border-radius: 10px;
 
-    .studied-6000 {
+    .wpb_wrapper {
       width: 100%;
       height: 48px;
-      background: url(/wp-content/uploads/2023/06/Icon-B.png),
-      url(/wp-content/uploads/2023/06/Icon-B.png);
-      background-position: center left 20px,
-      center right 20px;
+      color: #fff;
+      background: url(/wp-content/uploads/2023/06/ppl-icon.png),
+      url(/wp-content/uploads/2023/06/ppl-icon.png);
+      background-position: center left 0,
+      center right 0;
       background-repeat: no-repeat;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -43,6 +44,9 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
+      p {
+        margin: 0;
+      }
     }
   }
 }
