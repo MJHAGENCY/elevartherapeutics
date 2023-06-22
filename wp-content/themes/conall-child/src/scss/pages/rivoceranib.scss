@@ -187,7 +187,7 @@
   background: #EAEAEA;
   .moa-info-block {
     .vp-img-paragraph,
-    .wpb_single_image {
+    figure {
       width: 90%;
       margin: 0 auto;
     }
@@ -200,7 +200,7 @@
     width: 50%;
     background-image: url(/wp-content/uploads/2023/06/DL_Icon.png);
     background-repeat: no-repeat;
-    background-position: center right 20px;
+    background-position: center left 20px;
     &:hover {
       background-color: $elevar_purple !important;
       opacity: 0.7 !important;
