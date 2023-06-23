@@ -225,9 +225,10 @@
 
 /*    FOR YOUR PATIENTS SECTION    */
 #for-patients-section {
-  height: 546px;
-  background: url(/wp-content/uploads/2023/06/inquire-section-bg.png) no-repeat center center;
-  background-size: cover;
+  background-image: url(/wp-content/uploads/2023/06/inquire-section-bg.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 
 @media all and (max-width: 878px) {
