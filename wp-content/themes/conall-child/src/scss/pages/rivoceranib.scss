@@ -184,7 +184,7 @@
 
 /*    MOA SECTION   */
 #moa-section {
-  background: #EAEAEA;
+  background: $gray_section_bg;
   .moa-info-block {
       width: 90%;
       margin: 0 auto;
@@ -209,11 +209,11 @@
     }
 
     #moa-pdf-img-link-dskt {
-      display: none;
+      display: none !important;
     }
 
     #moa-pdf-link-mobi {
-      display: block;
+      display: block !important;
     }
 
   }
