@@ -227,8 +227,9 @@
 #for-patients-section {
   background-image: url(/wp-content/uploads/2023/06/inquire-section-bg.png);
   background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:center center;
 }
 
 @media all and (max-width: 878px) {
