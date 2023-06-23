@@ -186,17 +186,10 @@
 #moa-section {
   background: #EAEAEA;
   .moa-info-block {
-    .vp-img-paragraph {
       width: 90%;
       margin: 0 auto;
-    }
   }
-  .moa-info-block {
-    .wpb_single_image {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }
+
   #moa-pdf-link-mobi {
     display: none;
   }
@@ -211,20 +204,14 @@
 @media all and (max-width: 390px) {
   #moa-section {
     .moa-info-block {
-      .wpb_single_image {
-        width: 90vw;
-        margin: 0 auto;
-      }
+      width: 90vw;
+      margin: 0 auto;
     }
-    .moa-info-block {
-      .wpb_single_image {
-        width: 90vw;
-        margin: 0 auto;
-      }
-    }
+
     #moa-pdf-img-link-dskt {
       display: none;
     }
+
     #moa-pdf-link-mobi {
       display: block;
     }
