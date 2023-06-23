@@ -227,14 +227,19 @@
         margin: 0 auto;
       }
     }
-#moa-pdf-img-link-dskt {
-  display: none;
-}
- /*   .moa-cta-btn {
-      padding: 10px 20px 10px 70px !important;
-      width: 90vw;
-      background-size: 10%;
-    }*/
+
+    #moa-pdf-img-link-dskt {
+      display: none;
+    }
+    #moa-pdf-link-mobi {
+      display: block;
+    }
+
+    /*   .moa-cta-btn {
+         padding: 10px 20px 10px 70px !important;
+         width: 90vw;
+         background-size: 10%;
+       }*/
   }
 }
 
