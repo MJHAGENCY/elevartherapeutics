@@ -187,12 +187,12 @@
   background: #EAEAEA;
   .moa-info-block {
     .vp-img-paragraph,
-    figure {
+    .wpb_single_image {
       width: 90%;
       margin: 0 auto;
     }
   }
-  .moa-cta-btn {
+  /*.moa-cta-btn {
     display: block;
     margin: 0 auto;
     padding: 10px 20px 10px 70px !important;
@@ -206,6 +206,15 @@
       background-color: $elevar_purple !important;
       opacity: 0.7 !important;
     }
+  }*/
+  #moa-pdf-link-mobi {
+    display: none;
+  }
+  #contact-us-link {
+    p a {
+      color: $elevar_blue;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -218,11 +227,18 @@
         margin: 0 auto;
       }
     }
-
-    .moa-cta-btn {
+#moa-pdf-img-link-dskt {
+  display: none;
+}
+ /*   .moa-cta-btn {
       padding: 10px 20px 10px 70px !important;
       width: 90vw;
       background-size: 10%;
-    }
+    }*/
   }
+}
+
+    /*    PIPELINE SECTION        */
+#pipeline-section {
+
 }
