@@ -104,14 +104,7 @@
 
 @media all and (max-width: 878px) {
 
-/*  .new-center-row {
-    .wpb_column:nth-child(2) {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }*/
-
-    #about-rivoceranib {
+  #about-rivoceranib {
     #study-numbers {
       width: 100%;
       height: auto;
@@ -185,14 +178,20 @@
 /*    MOA SECTION   */
 #moa-section {
   background: $gray_section_bg;
+
   .moa-info-block {
-      width: 90%;
-      margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #moa-pdf-img-link-dskt:hover {
+    opacity: 0.7;
   }
 
   #moa-pdf-link-mobi {
     display: none;
   }
+
   #contact-us-link {
     p a {
       color: $elevar_blue;
@@ -219,7 +218,26 @@
   }
 }
 
-    /*    PIPELINE SECTION        */
+/*    PIPELINE SECTION        */
 #pipeline-section {
 
 }
+
+/*    FOR YOUR PATIENTS SECTION    */
+#for-patients-section {
+  height: 546px;
+  background: url(/wp-content/uploads/2023/06/inquire-section-bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+@media all and (max-width: 878px) {
+  #for-patients-section {
+    height: auto;
+    background: rgb(248,248,248);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(248,248,248,1)), to(rgba(246,246,248,1)));
+    background: -o-linear-gradient(bottom, rgba(248,248,248,1) 0%, rgba(246,246,248,1) 100%);
+    background: linear-gradient(0deg, rgba(248,248,248,1) 0%, rgba(246,246,248,1) 100%);
+    background-size: cover;
+  }
+}
+
