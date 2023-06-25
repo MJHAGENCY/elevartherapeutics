@@ -233,11 +233,11 @@
   #inquire-cta-container {
     display: flex;
     justify-content: space-between;
-    width: 26vw;
+    width: 40vw;
     margin: 40px auto 0;
     border: 1px solid #2b71b7;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
     background: #fff;
 
     .icon-block {
@@ -246,8 +246,20 @@
     }
 
     .txt-block {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       div {
         text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        & a {
+          text-align: left;
+          font-size: 20px;
+          font-weight: 500;
+          color: $elevar_blue;
+          text-decoration: underline;
+        }
       }
     }
   }
