@@ -133,10 +133,6 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-
-        /*        p {
-                  display: none;
-                }*/
       }
     }
   }
@@ -195,12 +191,6 @@
     display: none;
   }
 
-  /*  #contact-us-link {
-      p a {
-        color: $elevar_blue;
-        text-decoration: underline;
-      }
-    }*/
 }
 
 @media all and (max-width: 878px) {
@@ -268,7 +258,6 @@
         div {
           text-align: left;
           font-size: 20px;
-          /*font-weight: 500;*/
 
           & a {
             text-align: left;
@@ -343,7 +332,6 @@
           div {
             text-align: left;
             font-size: 20px;
-            /*font-weight: 500;*/
             line-height: 1.8rem;
             & a {
               text-align: left;
@@ -380,13 +368,15 @@
     align-items: center;
     background: $elevar_purple;
     border-radius: 10px;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
     a {
       font-size: 22px;
       font-weight: 500;
       color: #fff;
-      &:hover {
-        opacity: 0.7;
-      }
     }
   }
 }
