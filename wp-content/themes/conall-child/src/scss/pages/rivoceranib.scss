@@ -229,6 +229,14 @@
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center center;
+
+  #inquire-cta-container {
+    display: flex;
+    width: 30vw;
+    margin: 40px auto 0;
+    border: 1px solid $elevar_blue;
+    border-radius: 20px;
+  }
 }
 
 @media all and (max-width: 878px) {
