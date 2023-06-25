@@ -62,9 +62,9 @@
 
 #about-rivoceranib {
   #study-numbers {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 30px 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -86,7 +86,7 @@
       background-position: center left 0,
       center right 0;
       background-repeat: no-repeat;
-      background-size: 10%;
+      background-size: 9%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -100,6 +100,7 @@
       p {
         margin: 0;
         color: #fff;
+        font-size: 36px;
       }
     }
   }
