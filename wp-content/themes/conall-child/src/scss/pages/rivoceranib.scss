@@ -47,7 +47,7 @@
 
   h3 {
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 25px 0 !important;
     color: $elevar_blue;
   }
@@ -226,18 +226,33 @@
 /*    FOR YOUR PATIENTS SECTION    */
 #for-patients-section {
   background-image: url(/wp-content/uploads/2023/06/inquire-section-bg.png);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 
   #inquire-cta-container {
     display: flex;
-    width: 30vw;
+    justify-content: space-between;
+    width: 26vw;
     margin: 40px auto 0;
-    border: 1px solid $elevar_blue;
+    border: 1px solid #2b71b7;
     border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+
+    .icon-block {
+      width: 75px;
+      height: 75px;
+    }
+
+    .txt-block {
+      div {
+        text-align: left;
+      }
+    }
   }
 }
+
 
 @media all and (max-width: 878px) {
   #for-patients-section {
