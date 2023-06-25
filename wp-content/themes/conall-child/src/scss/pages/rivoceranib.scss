@@ -254,7 +254,7 @@
         div {
           text-align: left;
           font-size: 20px;
-          font-weight: 500;
+          /*font-weight: 500;*/
 
           & a {
             text-align: left;
@@ -291,7 +291,7 @@
         justify-content: center;
         align-items: center;
         width: 350px;
-        margin: 0 auto;
+        margin: 40px auto 0;
         border: 1px solid #2b71b7;
         border-radius: 20px;
         padding: 20px;
@@ -311,8 +311,8 @@
           div {
             text-align: left;
             font-size: 20px;
-            font-weight: 500;
-
+            /*font-weight: 500;*/
+            line-height: 1.8rem;
             & a {
               text-align: left;
               font-size: 20px;
