@@ -40,6 +40,32 @@
   }
 }
 
+@media all and (max-width: 414px) {
+  .home {
+    .edgtf-title {
+      .edgtf-title-holder {
+        h1 {
+          font-size: 40px !important;
+        }
+
+        .edgtf-subtitle {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .edgtf-title-image {
+      height: 399px;
+      width: 100%;
+      background: url(/wp-content/uploads/2023/06/hp-hero-bg-1.png) no-repeat center center;
+      background-size: cover;
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
 /* END HOME PAGE   */
 
 /*  CAREERS 2023 BillieMead   */
