@@ -23,6 +23,34 @@
   }
 }
 
+@media all and (max-width: 414px) {
+  .page-id-15095 {
+    .edgtf-title {
+      .edgtf-title-holder {
+        top: 20% !important;
+        h1 {
+          font-size: 38px !important;
+        }
+
+        .edgtf-subtitle {
+          font-size: 22px !important;
+        }
+      }
+    }
+
+    .edgtf-title-image {
+      height: 399px;
+      width: 100%;
+      background: url(/wp-content/uploads/2023/06/rivo-mobi-bg.png) no-repeat center center;
+      background-size: cover;
+
+      img {
+        display: none !important;
+      }
+    }
+  }
+}
+
 @media all and (max-width: 1024px) {
   .page-id-15095 {
     .edgtf-title {
