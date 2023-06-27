@@ -213,15 +213,12 @@
   background: $gray_section_bg;
 
   .moa-info-block-pdf {
-    width: 90%;
+    width: 50vw;
     margin: 0 auto;
   }
   .moa-info-block-video {
-    width: 85%;
+    width: 50vw;
     margin: 0 auto;
-    background: url(/wp-content/themes/conall-child/dist/images/video-play-btn.png);
-    background-repeat: no-repeat;
-    background-position: calc(50% - 39px) calc(50% - 39px);
   }
 
   #moa-pdf-img-link-dskt:hover {
@@ -236,7 +233,11 @@
 
 @media all and (max-width: 878px) {
   #moa-section {
-    .moa-info-block {
+    .moa-info-block-pdf {
+      width: 90vw;
+      margin: 0 auto;
+    }
+    .moa-info-block-video {
       width: 90vw;
       margin: 0 auto;
     }
