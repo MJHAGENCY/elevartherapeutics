@@ -265,6 +265,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding: 40px 0;
 
   #inquire-cta-deskt {
     #inquire-cta-container {
@@ -326,6 +327,7 @@
 @media all and (max-width: 878px) {
   #for-patients-section {
     height: auto;
+    padding: 0 20px;
     background: rgb(248, 248, 248);
     background: -o-linear-gradient(bottom, rgba(248, 248, 248, 1) 0%, rgba(246, 246, 248, 1) 100%);
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(248, 248, 248, 1)), to(rgba(246, 246, 248, 1)));
