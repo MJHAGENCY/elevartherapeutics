@@ -83,6 +83,7 @@
 
   p {
     color: $drk_gray;
+    font-size: 20px;
     a {
       color: $elevar_blue;
       text-decoration: underline;
@@ -231,7 +232,7 @@
 
 }
 
-@media all and (max-width: 878px) {
+@media all and (max-width: 760px) {
   #moa-section {
     .moa-info-block-pdf {
       width: 90vw;
@@ -300,6 +301,7 @@
         div {
           text-align: left;
           font-size: 20px;
+          color: $drk_gray;
 
           & a {
             text-align: left;
